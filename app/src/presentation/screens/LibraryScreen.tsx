@@ -11,8 +11,8 @@ import {
   getLibrary,
   SavedProduct,
   removeFromLibrary,
-} from "../services/storage";
-import { getCalories } from "../services/openFoodFacts";
+} from "../../services/storage/storage";
+import { getCalories } from "../../data/datasources/openFoodFacts";
 import { Ionicons } from "@expo/vector-icons";
 
 interface LibraryScreenProps {
@@ -63,7 +63,7 @@ export default function LibraryScreen({
     return (
       <View style={styles.emptyContainer}>
         <Image
-          source={require("../assets/Imagen-inicio.png")}
+          source={require("../../../../assets/Imagen-inicio.png")}
           style={styles.emptyImage}
           resizeMode="contain"
         />

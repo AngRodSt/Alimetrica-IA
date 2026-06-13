@@ -14,8 +14,8 @@ import {
   Product,
   getCalories,
   getNutrientLevelText,
-} from "../services/openFoodFacts";
-import { saveProductToLibrary, isProductInLibrary } from "../services/storage";
+} from "../../data/datasources/openFoodFacts";
+import { saveProductToLibrary, isProductInLibrary } from "../../services/storage/storage";
 
 interface ProductDetailsProps {
   product: Product | null;

@@ -9,14 +9,14 @@ import {
   Image,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import SplashScreen from "./components/SplashScreen";
-import WelcomeScreen from "./components/WelcomeScreen";
-import BarcodeScanner from "./components/BarcodeScanner";
-import ProductDetails from "./components/ProductDetails";
-import LibraryScreen from "./components/LibraryScreen";
-import BottomNavigation from "./components/BottomNavigation";
-import { getProductByBarcode, Product } from "./services/openFoodFacts";
-import { SavedProduct } from "./services/storage";
+import SplashScreen from "./app/src/presentation/screens/SplashScreen";
+import WelcomeScreen from "./app/src/presentation/screens/WelcomeScreen";
+import BarcodeScanner from "./app/src/presentation/components/BarcodeScanner";
+import ProductDetails from "./app/src/presentation/screens/ProductDetails";
+import LibraryScreen from "./app/src/presentation/screens/LibraryScreen";
+import BottomNavigation from "./app/src/presentation/navigation/BottomNavigation";
+import { getProductByBarcode, Product } from "./app/src/data/datasources/openFoodFacts";
+import { SavedProduct } from "./app/src/services/storage/storage";
 
 type Screen = "splash" | "welcome" | "home" | "library" | "scanner" | "details";
 

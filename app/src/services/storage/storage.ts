@@ -1,5 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { Product } from './openFoodFacts';
+import { Product } from '../../data/datasources/openFoodFacts';
 
 const LIBRARY_KEY = '@foodscan_library';
 

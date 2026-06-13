@@ -35,7 +35,7 @@ export default function SplashScreen({ onFinish }: SplashScreenProps) {
 
       <View style={styles.bottomImageContainer}>
         <Image
-          source={require("../assets/Imagen-inicio.png")}
+          source={require("../../../../assets/Imagen-inicio.png")}
           style={styles.foodImage}
           resizeMode="contain"
         />

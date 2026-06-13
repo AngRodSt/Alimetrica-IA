@@ -12,7 +12,7 @@ export default function WelcomeScreen({ onGetStarted }: WelcomeScreenProps) {
     <View style={styles.container}>
       <View style={styles.imageContainer}>
         <Image
-          source={require("../assets/Imagen-inicio.png")}
+          source={require("../../../../assets/Imagen-inicio.png")}
           style={styles.foodImage}
           resizeMode="contain"
         />
