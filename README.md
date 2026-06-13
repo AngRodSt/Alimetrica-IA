@@ -1,6 +1,6 @@
-# FoodScan
+# Alimetrica IA
 
-FoodScan es una aplicación móvil que te permite escanear códigos de barras de productos alimenticios y obtener información nutricional detallada usando la base de datos de OpenFoodFacts.
+Alimetrica IA es una aplicación móvil que te permite escanear códigos de barras de productos alimenticios y obtener información nutricional detallada usando la base de datos de OpenFoodFacts.
 
 ## Probar la app con Expo Go
 
@@ -16,8 +16,8 @@ FoodScan es una aplicación móvil que te permite escanear códigos de barras de
 #### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/AngRodSt/FoodScan.git
-cd FoodScan
+git clone https://github.com/AngRodSt/Alimetrica IA.git
+cd Alimetrica IA
 ```
 
 #### 2. Instalar dependencias
@@ -83,7 +83,7 @@ npx expo start --localhost
 ## Estructura del proyecto
 
 ```
-FoodScan/
+Alimetrica IA/
 ├── components/          # Componentes reutilizables
 │   ├── BarcodeScanner.tsx
 │   ├── ProductDetails.tsx
